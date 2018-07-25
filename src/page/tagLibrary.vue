@@ -10,7 +10,7 @@
             <el-collapse class="tag" accordion>
             <el-collapse-item>
                  <div slot="title" class="tag-item-wrapper">
-                <span class="tag-item">犯罪构成要件标签</span><span class="delete" @click="deleteParentClassify($event)"><i class="header-icon el-icon-error"></i></span>
+                <span class="tag-item">犯罪构成要件标签了</span><span class="delete" @click="deleteParentClassify($event)"><i class="header-icon el-icon-error"></i></span>
                 </div>
                 <ul class="tag-list">
                     <li v-for="(item, index) in tagLists" :key="item.id" ref="tagItem"><span class="tagName">{{item.title}}</span><span class="delete" @click="deleteClassify($event,index)"><i class="el-icon-error"></i></span></li>
